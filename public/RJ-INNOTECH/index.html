@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RJ INNOTECH COMPANY</title>
+    <link rel="icon" type="images/x-icon" href="./assets/log.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <img class="logo_pic" src="./assets/log.png" alt="RJ INNOTECH LOGO" />
+      <div class="logo">RJ INNOTECH</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#Developers">Developers</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">RJ INNOTECH</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#Developers" onclick="toggleMenu()">Developers</a></li>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Profile -->
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/logoSia.png" alt="RJ INNOTECH LOGO" />
+      </div>
+      <div class="section__text">
+        <h2 class="section__text__p1">We</h2>
+        <h1>
+          <b><a  class="typewrite" data-period="2000"  data-type='[ "Inspire, Ignite, Innovate" ]'>
+              <span class="wrap"></span>
+            </a></b>
+      </h1><br>
+
+        <div class="btn-container">
+          <button id="playButton"  class="btn btn-color-2">Promotional Video</button>
+          <div id="videoContainer">
+            <button id="closeButton" class="close-button">x</button>
+              <video id="promoVideo" controls>
+                  <source src="./assets/vid.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+              </video>
+          </div>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./assets/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://linkedin.com/'"
+          />
+          <img
+            src="./assets/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/'"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p><br>
+      <h1 class="title_1">About Us</h1><br>
+      <div class="section-container">
+        <div class="section__pic-container">
+
+          <div class="pic-ctn">
+            <img src="./assets/inn1.png" alt="" class="pic">
+            <img src="./assets/inn2.png" alt="" class="pic">
+            <img src="./assets/inn3.png" alt="" class="pic">
+            <img src="./assets/inn4.png" alt="" class="pic">
+            <img src="./assets/inn5.png" alt="" class="pic">
+          </div>
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Vision</h3>
+              <p class="txt_about"> "We aim to lead in technology-driven web solutions, empowering businesses to excel in the digital realm through our commitment to innovation and excellence."</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"/>
+              <h3>Mission</h3>
+              <p class="txt_about">"At RJ INNOTECH, we're dedicated to crafting innovative websites that fuel business growth and exceed expectations."</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p class="txt_about">
+              At Innovators Technology, we are more than just a company; we are a force of innovation, a catalyst for change, and a hub for cutting-edge technological advancements. Our journey in the ever-evolving tech landscape has been one defined by a relentless pursuit of excellence and a commitment to shaping a future where technology knows no bounds.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow_up.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#profile'"
+      />
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow_down"
+        onclick="location.href='#experience'"
+      />
+    </section>
+
+    <!-- Experience -->
+    <section id="experience">
+      <p class="section__text__p1">Explore Our</p><br>
+      <h1 class="title_1">Experience</h1><br>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>React JS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>JavaScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Sass</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>TypeScript</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Flutter</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Backend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>PHP</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Java</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Ruby</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Node JS</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>C++</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <p>Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow_up.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#about'"
+      />
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow_down"
+        onclick="location.href='#projects'"
+      />
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+      <p class="section__text__p1">Browse Our Recent</p>
+      <h1 class="title_1">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-1.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Classroom Monitoring System</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Aarondevera02/Classroom_Monitoring_System.git'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-2.png"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Food Recipes</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Aarondevera02/Food-Recipes.git'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./assets/project-3.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">To Do App</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Aarondevera02/To-Do-App.git'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow_up.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#experience'"
+      />
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow_down"
+        onclick="location.href='#Developers'"
+      />
+      
+    </section><br><br> <br>
+    <!-- Developers --><p class="section__text__p1">Get to Know our</p>
+      <h1 class="title_1">Developers</h1><br>
+    <section  id="Developers">
+     
+      <div class="developer-card">
+          <div class="developer">
+              <h3 class="h3_dev">Founder</h3>
+              <img class="developer-image" src="./assets/prof.png" alt="Joseph Aaron Jumawan"><br>
+              <span class="name">Aaron Jumawan</span>
+          </div>
+          <div class="details">
+            <button class="contact_button2" id="cnct_Button">Personal Info</button><br><br>
+              <h3 class="h3_dev">Social Media Accounts</h3>
+              <div id="socials-container">
+                <img
+                  src="./assets/fb1.png"
+                  alt="My Facebook profile"
+                  class="icon"
+                  onclick="location.href='https://web.facebook.com/aronjumawandevera/'"
+                />
+                <img
+                  src="./assets/ig.png"
+                  alt="My Instagram profile"
+                  class="icon"
+                  onclick="location.href='https://www.instagram.com/dump_aajj/?igshid=OGQ5ZDc2ODk2ZA%3D%3D&fbclid=IwAR1PRp8nPd4jFEidRFdwET0Hkr4wJ9O5uR3UeTR2-lHMnJHkyLhaWmXRiyk/'"
+                />
+                <img
+                  src="./assets/linkedin.png"
+                  alt="My LinkedIn profile"
+                  class="icon"
+                  onclick="location.href='https://www.linkedin.com/in/aaron-jumawan-967a95279/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app&fbclid=IwAR1_cRibWYuxVdKONhEJhm7Etts29scsrqOag88vgAXuL7qYtLSah-ogIvY/'"
+                />
+                <img
+                  src="./assets/github.png"
+                  alt="My Github profile"
+                  class="icon"
+                  onclick="location.href='https://github.com/Aarondevera02/'"
+                />
+              </div>
+          </div>
+      </div>
+      <div class="developer-card_1">
+          <div class="developer">
+            <h3 class="h3_dev">Founder</h3>
+              <img class="developer-image" src="./assets/prof2.png" alt="Ribbie John Paul Santos"><br>
+              <span class="name">Ribbie Santos</span>
+          </div>
+          <div class="details">
+              <button class="contact-button" id="contactButton">Personal Info</button><br><br>
+              <h3 class="h3_dev">Social Media Accounts</h3>
+              <div id="socials-container">
+                <img
+                  src="./assets/fb1.png"
+                  alt="My Facebook profile"
+                  class="icon"
+                  onclick="location.href='https://web.facebook.com/profile.php?id=100071017783516&mibextid=9R9pXO&_rdc=1&_rdr'"
+                />
+                <img
+                  src="./assets/ig.png"
+                  alt="My Instagram profile"
+                  class="icon"
+                  onclick="location.href='https://www.instagram.com/santosribiejohnpaul/?igshid=NzZlODBkYWE4Ng==&fbclid=IwAR15EWfG9ZN01zc462hxMi7rQGrPgMeTVN_yHe2dDHUUKYbGdOK0CSkOjic'"
+                />
+                <img
+                  src="./assets/linkedin.png"
+                  alt="My LinkedIn profile"
+                  class="icon"
+                  onclick="location.href='https://www.linkedin.com/in/ribie-john-paul-santos-3058a4294?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app&fbclid=IwAR1Jq2IDWOrgXJY_D_4CyON6tqZCnkbzuzyon3gd6nKfQC6V7l45m22veHE'"
+                />
+                <img
+                  src="./assets/github.png"
+                  alt="My Github profile"
+                  class="icon"
+                  onclick="location.href='https://github.com/RibieSantos?fbclid=IwAR0kD_3EzBAmFym63wwPHRWV_NOT_tcpr6jD7sGytUoLYxMwyEb3gEwmLtU'"
+                />
+              </div>
+          </div>
+          <img
+        src="./assets/arrow_up.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='#projects'"
+      />
+      </div>
+      
+  </section>
+  <!-- Modal for Ribbie -->
+  <div id="contactModal" class="modal">
+    <div class="modal-content">
+        <span class="close" id="closedButton">&times;</span>
+        <h1>Personal Information</h1><br>
+        <p class="p_mod"> Ribbie John Paul Santos</p>
+        <p class="pp_mod">Full Name</p><br>
+        <p class="p_mod"> San Quintin, Pangasinan</p>
+        <p class="pp_mod">Address</p><br>
+        <p class="p_mod"> 22</p>
+        <p class="pp_mod">Age</p><br>
+        <a href="tel:09690116233" class="p_mod">09690116233</a>
+        <p class="pp_mod">Contact No.</p><br>
+    </div>
+</div>
+ <!-- Modal for Aaron -->
+ <div id="cnct_Modal" class="modal_2">
+  <div class="modal_content2">
+      <span class="closed" id="closedButton_2">&times;</span>
+      <h1>Personal Information</h1><br>
+      <p class="p_mod">Joseph Aaron Jumawan</p>
+      <p class="pp_mod">Full Name</p><br>
+      <p class="p_mod"> San Manuel, Pangasinan</p>
+      <p class="pp_mod">Address</p><br>
+      <p class="p_mod"> 22</p>
+      <p class="pp_mod">Age</p><br>
+      <a href="tel:09777313317" class="p_mod">09777313317</a>
+      <p class="pp_mod">Contact No.</p><br>
+  </div>
+</div>
+  <br><br>
+  <script src="script.js"></script>
+</section>
+<nav id="foot-desktop-nav" class="foot-nav">
+  <p class="p_dev">Copyright &#169; 2023 RJ INNOTECH. All Rights Reserved.</p>
+  <ul class="foot-nav-links">
+    <li><a href="#profile">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#projects">Projects</a></li>
+  </ul>
+</div>
+
+</nav>
+
+
+
+  </body>
+</html>
